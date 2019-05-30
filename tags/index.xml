@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Zlog</title>
+    <link>https://zlog.design/tags/</link>
+    <description>Recent content in Tags on Zlog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Sun, 26 May 2019 18:40:40 +0800</lastBuildDate>
+    
+	<atom:link href="https://zlog.design/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>MacOS</title>
+      <link>https://zlog.design/tags/MacOS/</link>
+      <pubDate>Sun, 26 May 2019 18:40:40 +0800</pubDate>
+      
+      <guid>https://zlog.design/tags/MacOS/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

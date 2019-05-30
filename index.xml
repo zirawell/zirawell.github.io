@@ -1,0 +1,218 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Zlog on Zlog</title>
+    <link>https://zlog.design/</link>
+    <description>Recent content in Zlog on Zlog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Sun, 26 May 2019 18:40:40 +0800</lastBuildDate>
+    <atom:link href="/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Useful MacOS ShortCuts</title>
+      <link>https://zlog.design/2019/00001/</link>
+      <pubDate>Sun, 26 May 2019 18:40:40 +0800</pubDate>
+      
+      <guid>https://zlog.design/2019/00001/</guid>
+      <description>&lt;h2&gt;移动光标的快捷键&lt;/h2&gt;
+
+&lt;div&gt;这组快捷键可以用来在文本中快速移动光标：&lt;/div&gt; 
+
+&lt;pre&gt;&lt;code class=&#34;language-tiki&#34;&gt;跳到本行开头 – Command + 左方向键←
+跳到本行末尾 – Command + 右方向键→
+跳到当前单词的开头 – Option + 左方向键←
+跳到当前单词的末尾 – Option + 右方向键→
+跳到整个文档的开头 – Command + 上方向键↑
+跳到整个文档的末尾 – Command + 下方向键↓
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;div&gt;注：在上边的这组快捷键中加上 Shift 键，就能够产生一组新的快捷键，可以实现快速选择一行文字、一些词语甚至整篇文档。&lt;/div&gt;
+
+&lt;h2&gt;文字选择的快捷键&lt;/h2&gt;
+
+&lt;div&gt;这组快捷键可以快速选中文字中的某些部分：&lt;/div&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-tiki&#34;&gt;选中当前位置到本行开头的文字 – Shift + Command + 左方向键←
+选中当前位置到本行末尾的文字 – Shift + Command + 左方向键→
+选中当前位置到所在单词开头的文字 – Shift + Option + 左方向键←
+选中当前位置到所在单词末尾的文字 – Shift + Option + 右方向键→
+选中当前位置到整个文档开头的文字 – Shift + Command + 上方向键↑
+选中当前位置到整个文档末尾的文字 – Shift + Command + 下方向键↓
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;div&gt;这些快捷键在基于 Cocoa 的应用中都应该有效（例如 Safari、Chrome、文本编辑、Pages 等），并且适用于所有版本的 Mac OS X 系统。如果在 iOS 设备上使用蓝牙键盘或通过 Dock 连接的键盘，也可以使用这些快捷键。&lt;/div&gt;
+
+&lt;h2&gt;Bash导航快捷键&lt;/h2&gt;
+
+&lt;div&gt;使用下列快捷键方便在Bash下文字中快速定位： &lt;/div&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-tiki&#34;&gt;跳至行首 – Control+A
+跳至行尾 – Control+E
+跳至下一行 – Control+N
+跳至上一行 – Control+P
+删除上一个单词 – Control+W
+删除当前光标位置到行首的文字 – Control+U
+删除当前光标位置到行尾的文字 – ⌃+K
+当然，使用最基本的方向键导航是完全可以的。
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2&gt;命令行中剪切和粘贴的快捷键&lt;/h2&gt;
+
+&lt;div&gt;命令行拥有独特的剪切和粘贴方式，称为“kill”和“yank”：&lt;/div&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-tiki&#34;&gt;剪切当前光标位置到行首的文字 – Control+U
+剪切当前光标位置到行尾的文字 – Control+K
+在光标当前位置粘贴最近一次剪切的内容 – ⌃+Y
+由于这几个 kill 和 yank 命令并不会影响剪切板的内容，所以可以当作“第二剪切板”来使用，甚至在许多图形界面的 Mac OS X 应用中同样有效。
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2&gt;常用的几个Finder快捷键&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-tiki&#34;&gt;空格键  打开快速查看窗口(预览)
+回车  	重命名
+Command(⌘)+Delete 将选择的文件删除到垃圾箱
+Command(⌘)+O 用默认程序打开所选的文件
+Command(⌘)+N 新打开一个Finder窗口
+Command(⌘)+Shift(⇧)+N 新建一个文件夹
+Command(⌘)+I 显示文件/文件夹简介
+Command(⌘)+Shift(⇧)+U 打开使用工具窗口
+Command(⌘)+Shift(⇧)+A 打开应用程序窗口
+Command(⌘)+A 全选
+Command(⌘)+Option(⌥)+A 取消全选
+Command(⌘)+Shift(⇧)+. 隐藏/显示隐藏文件
+Command(⌘)+Shift(⇧)+\ 新建一个标签页
+Command(⌘)+Option(⌥)+\ 打开文件选项（Alfred）
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2&gt;如何在Macos中输入特殊字符&lt;/h2&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;标志&lt;/th&gt;
+&lt;th&gt;快捷键&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;苹果标志 &lt;/td&gt;
+&lt;td&gt;Shift+Option+K&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Copyright ©&lt;/td&gt;
+&lt;td&gt;Option+G&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;美元 $&lt;/td&gt;
+&lt;td&gt;Shift+4&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;美分 ￠&lt;/td&gt;
+&lt;td&gt;Option+4&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;英镑 ￡&lt;/td&gt;
+&lt;td&gt;Option+3&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;日元 ￥&lt;/td&gt;
+&lt;td&gt;Option+Y&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;欧元 €&lt;/td&gt;
+&lt;td&gt;Shift+Option+2&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;破折号 –&lt;/td&gt;
+&lt;td&gt;Option+-&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;约等于 ≈&lt;/td&gt;
+&lt;td&gt;Option+X&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;度 °&lt;/td&gt;
+&lt;td&gt;Shift+Option+8&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;除号 ÷&lt;/td&gt;
+&lt;td&gt;Option+/&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;循环 ∞&lt;/td&gt;
+&lt;td&gt;Option+5&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;小于等于≤&lt;/td&gt;
+&lt;td&gt;Option+,&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;大于等于≥&lt;/td&gt;
+&lt;td&gt;Option+.&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;不等于≠&lt;/td&gt;
+&lt;td&gt;Option+=&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Pi π&lt;/td&gt;
+&lt;td&gt;Option+P&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;正负号±&lt;/td&gt;
+&lt;td&gt;Shift+Option+=&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;平方根√&lt;/td&gt;
+&lt;td&gt;Option+V&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;求和 ∑&lt;/td&gt;
+&lt;td&gt;Option+W&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;产品标识 ™&lt;/td&gt;
+&lt;td&gt;Option+2&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;®&lt;/td&gt;
+&lt;td&gt;Option+r&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>https://zlog.design/about/</link>
+      <pubDate>Sun, 26 May 2019 16:37:05 +0800</pubDate>
+      
+      <guid>https://zlog.design/about/</guid>
+      <description>&lt;p&gt;About&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

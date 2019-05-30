@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Zlog</title>
+    <link>https://zlog.design/posts/</link>
+    <description>Recent content in Posts on Zlog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Sun, 26 May 2019 18:40:40 +0800</lastBuildDate>
+    
+	<atom:link href="https://zlog.design/posts/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Useful MacOS ShortCuts</title>
+      <link>https://zlog.design/2019/00001/</link>
+      <pubDate>Sun, 26 May 2019 18:40:40 +0800</pubDate>
+      
+      <guid>https://zlog.design/2019/00001/</guid>
+      <description>移动光标的快捷键 这组快捷键可以用来在文本中快速移动光标： 跳到本行开头 – Command + 左方向键← 跳到本行末尾 – Command + 右方向键→ 跳到当前单词的开头 – Option + 左方</description>
+    </item>
+    
+  </channel>
+</rss>
