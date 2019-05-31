@@ -216,17 +216,17 @@ Command(⌘)+Option(⌥)+\ 打开文件选项（Alfred）
       <guid>https://zlog.design/about/</guid>
       <description>&lt;h3&gt;About&lt;/h3&gt;
 
-&lt;p&gt;我是泽拉威尔，毕业于华东理工大学复合材料与工程专业，后转职 IT ，目前从事 Java 开发，居住于中国上海。我喜欢旅游、摄影、剪辑和一切美好的事物。&lt;/p&gt;
+&lt;p&gt;我是泽拉威尔，毕业于华东理工大学复合材料与工程专业，后转职 IT ，目前从事 Java 开发，居住于中国上海。个人比较喜欢旅游、摄影、剪辑和一切美好的事物。&lt;/p&gt;
 
 &lt;p&gt;写这个博客的目的是为了记录自己的生活以及消化所学到的知识，同时进行对外分享，希望可以结交到更多的朋友。&lt;/p&gt;
 
-&lt;p&gt;本站使用 Github Pages 和 Hugo 进行搭建，具体操作步骤在我的博客中有，当然你也可以下载我的&lt;a href=&#34;https://github.com/zirawell/zirawell.github.io&#34;&gt;源码&lt;/a&gt;a进行修改。&lt;/p&gt;
+&lt;p&gt;本站使用 Github Pages 和 Hugo 进行搭建，具体操作步骤在我的博客中有，当然你也可以下载我的&lt;a href=&#34;https://github.com/zirawell/zirawell.github.io&#34;&gt;源码&lt;/a&gt;进行修改。&lt;/p&gt;
 
 &lt;h3&gt;Contacts&lt;/h3&gt;
 
-&lt;p&gt;·Github:&lt;a href=&#34;https://github.com/zirawell&#34;&gt;Zirawell&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;·Github：  &lt;a href=&#34;https://github.com/zirawell&#34;&gt;Zirawell&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;·Email:&lt;a href=&#34;mailto:zirawell@yeah.net&#34;&gt;zirawell@yeah.net&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;·Email： &lt;a href=&#34;mailto:zirawell@yeah.net&#34;&gt;zirawell@yeah.net&lt;/a&gt;&lt;/p&gt;
 
 &lt;h3&gt;More Info&lt;/h3&gt;
 
@@ -239,6 +239,21 @@ Command(⌘)+Option(⌥)+\ 打开文件选项（Alfred）
 &lt;h3&gt;Copyright&lt;/h3&gt;
 
 &lt;p&gt;本站所有内容均采用&lt;a href=&#34;http://creativecommons.org/licenses/by/4.0/deed.zh&#34; rel=&#34;nofollow noreferrer&#34; target=&#34;_blank&#34;&gt;署名 4.0 国际（CC BY 4.0）&lt;/a&gt;创作共享协议。通俗地讲，只要在使用时署名，那么使用者可以对本站所有内容进行转载、节选、二次创作，并且允许商业性使用。&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://zlog.design/tools/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://zlog.design/tools/</guid>
+      <description>&lt;h2&gt;常驻本站的工具酱&lt;/h2&gt;
+
+&lt;h3&gt;每日热榜&lt;/h3&gt;
+
+&lt;a href=&#34;http://hot.mrcuriosity.org&#34;&gt;Hot Trending&lt;/a&gt;
+
 </description>
     </item>
     
