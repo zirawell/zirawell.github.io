@@ -5,8 +5,26 @@
     <description>Recent content in Zlog on Zlog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sun, 26 May 2019 18:40:40 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 31 May 2019 21:55:59 +0800</lastBuildDate>
     <atom:link href="/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Tools</title>
+      <link>https://zlog.design/tools/</link>
+      <pubDate>Fri, 31 May 2019 21:55:59 +0800</pubDate>
+      
+      <guid>https://zlog.design/tools/</guid>
+      <description>&lt;h2&gt;常驻本站的工具酱&lt;/h2&gt;
+
+&lt;h3&gt;每日热榜&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://hot.mrcuriosity.org&#34;&gt;Hot Trending&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3&gt;在线工具&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://tool.lu&#34;&gt;Online Tools&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Useful MacOS ShortCuts</title>
@@ -204,7 +222,8 @@ Command(⌘)+Option(⌥)+\ 打开文件选项（Alfred）
 
 &lt;p&gt;​&lt;/p&gt;
 
-&lt;p&gt;​                                                                                   ·End·&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;                                                                                &amp;lt;center&amp;gt;·End·&amp;lt;/center&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
 </description>
     </item>
     
@@ -239,21 +258,6 @@ Command(⌘)+Option(⌥)+\ 打开文件选项（Alfred）
 &lt;h3&gt;Copyright&lt;/h3&gt;
 
 &lt;p&gt;本站所有内容均采用&lt;a href=&#34;http://creativecommons.org/licenses/by/4.0/deed.zh&#34; rel=&#34;nofollow noreferrer&#34; target=&#34;_blank&#34;&gt;署名 4.0 国际（CC BY 4.0）&lt;/a&gt;创作共享协议。通俗地讲，只要在使用时署名，那么使用者可以对本站所有内容进行转载、节选、二次创作，并且允许商业性使用。&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://zlog.design/tools/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://zlog.design/tools/</guid>
-      <description>&lt;h2&gt;常驻本站的工具酱&lt;/h2&gt;
-
-&lt;h3&gt;每日热榜&lt;/h3&gt;
-
-&lt;a href=&#34;http://hot.mrcuriosity.org&#34;&gt;Hot Trending&lt;/a&gt;
-
 </description>
     </item>
     
