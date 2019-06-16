@@ -9,9 +9,9 @@
   
   
   
+  <link rel="prev" href="https://zlog.design/2019/MacOS-002/" />
   
-  <link rel="next" href="https://zlog.design/2019/MacOS-002/" />
-  <link rel="canonical" href="https://zlog.design/2019/MacOS-001/" />
+  <link rel="canonical" href="https://zlog.design/2019/MacOS-003/" />
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -22,10 +22,10 @@
   <title>
        
        
-           Useful MacOS ShortCuts | Zlog
+           MacOS用Touch ID授权 | Zlog
        
   </title>
-  <meta name="title" content="Useful MacOS ShortCuts | Zlog">
+  <meta name="title" content="MacOS用Touch ID授权 | Zlog">
     
   
   <link rel="stylesheet" href="/font/iconfont.css">
@@ -44,9 +44,9 @@
          "@id": "https:\/\/zlog.design\/"
     },
     "articleSection" : "posts",
-    "name" : "Useful MacOS ShortCuts",
-    "headline" : "Useful MacOS ShortCuts",
-    "description" : "移动光标的快捷键 这组快捷键可以用来在文本中快速移动光标： 跳到本行开头 – Command \x2b 左方向键← 跳到本行末尾 – Command \x2b 右方向键→ 跳到当前单词的开头 – Option \x2b 左方",
+    "name" : "MacOS用Touch ID授权",
+    "headline" : "MacOS用Touch ID授权",
+    "description" : "系统环境 机型：MacBook Pro 13″ 2017 系统：macOS 10.14.5 ⚠️ 注意** • 由于系统的功能是随着升级而不断变化的，所以本文所述的方法不保证长期有效",
     "inLanguage" : "zh-cn",
     "author" : "Zirawell",
     "creator" : "Zirawell",
@@ -54,10 +54,10 @@
     "accountablePerson" : "Zirawell",
     "copyrightHolder" : "Zirawell",
     "copyrightYear" : "2019",
-    "datePublished": "2019-05-26 18:40:40 \x2b0800 CST",
-    "dateModified" : "2019-05-26 18:40:40 \x2b0800 CST",
-    "url" : "https:\/\/zlog.design\/2019\/MacOS-001\/",
-    "wordCount" : "1209",
+    "datePublished": "2019-06-16 22:25:48 \x2b0800 CST",
+    "dateModified" : "2019-06-16 22:25:48 \x2b0800 CST",
+    "url" : "https:\/\/zlog.design\/2019\/MacOS-003\/",
+    "wordCount" : "227",
     "keywords" : [ "MacOS", "Zlog"]
 }
 </script>
@@ -120,11 +120,11 @@
       		
 <article class="post-warp" itemscope itemtype="http://schema.org/Article">
     <header class="post-header">
-        <h1 class="post-title" itemprop="name headline">Useful MacOS ShortCuts</h1>
+        <h1 class="post-title" itemprop="name headline">MacOS用Touch ID授权</h1>
         <div class="post-meta">
                 Written by <a itemprop="name" href="https://zlog.design/" rel="author">Zirawell</a> with ♥ 
                 <span class="post-time">
-                on <time datetime=2019-05-26 itemprop="datePublished">May 26, 2019</time>
+                on <time datetime=2019-06-16 itemprop="datePublished">June 16, 2019</time>
                 </span>
                 in
                 <i class="iconfont icon-folder"></i>
@@ -150,195 +150,45 @@
           
           
 
-          <h2>移动光标的快捷键</h2>
+          
 
-<div>这组快捷键可以用来在文本中快速移动光标：</div> 
+<h2 id="系统环境">系统环境</h2>
 
-<pre><code class="language-tiki">跳到本行开头 – Command + 左方向键←
-跳到本行末尾 – Command + 右方向键→
-跳到当前单词的开头 – Option + 左方向键←
-跳到当前单词的末尾 – Option + 右方向键→
-跳到整个文档的开头 – Command + 上方向键↑
-跳到整个文档的末尾 – Command + 下方向键↓
+<ul>
+<li><p>机型：MacBook Pro 13″ 2017</p></li>
+
+<li><p>系统：macOS 10.14.5</p></li>
+</ul>
+
+<p><h3>⚠️ 注意**</h3></p>
+
+<p>• 由于系统的功能是随着升级而不断变化的，所以本文所述的方法不保证长期有效。</p>
+
+<h2>操作方法</h2>
+
+<p>打开“终端”，执行以下命令：</p>
+
+<pre><code class="language-shell">sudo sed -i &quot;.bak&quot; '2s/^/auth  sufficient  pam_tid.so\'$'\n/g' /etc/pam.d/sudo
 </code></pre>
 
-<div>注：在上边的这组快捷键中加上 Shift 键，就能够产生一组新的快捷键，可以实现快速选择一行文字、一些词语甚至整篇文档。</div>
+<p>然后按要求输入您的管理员密码，回车。</p>
 
-<h2>文字选择的快捷键</h2>
+<p><span>该命令的作用是把 <code>/etc/pam.d/sudo</code> 备份为 <code>/etc/pam.d/sudo.</code>，然后在 <code>/etc/pam.d/sudo</code> 的第二行前面加入 <code>auth sufficient pam_tid.so</code> 这个字符串。</span></p>
 
-<div>这组快捷键可以快速选中文字中的某些部分：</div>
+<p>如果需要<strong><em>恢复原文件</em></strong>，请执行：</p>
 
-<pre><code class="language-tiki">选中当前位置到本行开头的文字 – Shift + Command + 左方向键←
-选中当前位置到本行末尾的文字 – Shift + Command + 左方向键→
-选中当前位置到所在单词开头的文字 – Shift + Option + 左方向键←
-选中当前位置到所在单词末尾的文字 – Shift + Option + 右方向键→
-选中当前位置到整个文档开头的文字 – Shift + Command + 上方向键↑
-选中当前位置到整个文档末尾的文字 – Shift + Command + 下方向键↓
+<pre><code class="language-shell">sudo mv /etc/pam.d/sudo.bak /etc/pam.d/sudo
 </code></pre>
 
-<div>这些快捷键在基于 Cocoa 的应用中都应该有效（例如 Safari、Chrome、文本编辑、Pages 等），并且适用于所有版本的 Mac OS X 系统。如果在 iOS 设备上使用蓝牙键盘或通过 Dock 连接的键盘，也可以使用这些快捷键。</div>
+<h2>最终效果</h2>
 
-<h2>Bash导航快捷键</h2>
+<p>打开终端，执行 <code>sudo su</code>，然后就可以刷指纹啦！</p>
 
-<div>使用下列快捷键方便在Bash下文字中快速定位： </div>
+<p><img src = "/images/2019061602.jpg"></p>
 
-<pre><code class="language-tiki">跳至行首 – Control+A
-跳至行尾 – Control+E
-跳至下一行 – Control+N
-跳至上一行 – Control+P
-删除上一个单词 – Control+W
-删除当前光标位置到行首的文字 – Control+U
-删除当前光标位置到行尾的文字 – ⌃+K
-当然，使用最基本的方向键导航是完全可以的。
-</code></pre>
+<p>下面是Touch Bar效果：</p>
 
-<h2>命令行中剪切和粘贴的快捷键</h2>
-
-<div>命令行拥有独特的剪切和粘贴方式，称为“kill”和“yank”：</div>
-
-<pre><code class="language-tiki">剪切当前光标位置到行首的文字 – Control+U
-剪切当前光标位置到行尾的文字 – Control+K
-在光标当前位置粘贴最近一次剪切的内容 – ⌃+Y
-由于这几个 kill 和 yank 命令并不会影响剪切板的内容，所以可以当作“第二剪切板”来使用，甚至在许多图形界面的 Mac OS X 应用中同样有效。
-</code></pre>
-
-<h2>常用的几个Finder快捷键</h2>
-
-<pre><code class="language-tiki">空格键  打开快速查看窗口(预览)
-回车  	重命名
-Command(⌘)+Delete 将选择的文件删除到垃圾箱
-Command(⌘)+O 用默认程序打开所选的文件
-Command(⌘)+N 新打开一个Finder窗口
-Command(⌘)+Shift(⇧)+N 新建一个文件夹
-Command(⌘)+I 显示文件/文件夹简介
-Command(⌘)+Shift(⇧)+U 打开使用工具窗口
-Command(⌘)+Shift(⇧)+A 打开应用程序窗口
-Command(⌘)+A 全选
-Command(⌘)+Option(⌥)+A 取消全选
-Command(⌘)+Shift(⇧)+. 隐藏/显示隐藏文件
-Command(⌘)+Shift(⇧)+\ 新建一个标签页
-Command(⌘)+Option(⌥)+\ 打开文件选项（Alfred）
-</code></pre>
-
-<h2>如何在Macos中输入特殊字符</h2>
-
-<table>
-<thead>
-<tr>
-<th>标志</th>
-<th>快捷键</th>
-</tr>
-</thead>
-
-<tbody>
-<tr>
-<td>苹果标志 </td>
-<td>Shift+Option+K</td>
-</tr>
-
-<tr>
-<td>Copyright ©</td>
-<td>Option+G</td>
-</tr>
-
-<tr>
-<td>美元 $</td>
-<td>Shift+4</td>
-</tr>
-
-<tr>
-<td>美分 ￠</td>
-<td>Option+4</td>
-</tr>
-
-<tr>
-<td>英镑 ￡</td>
-<td>Option+3</td>
-</tr>
-
-<tr>
-<td>日元 ￥</td>
-<td>Option+Y</td>
-</tr>
-
-<tr>
-<td>欧元 €</td>
-<td>Shift+Option+2</td>
-</tr>
-
-<tr>
-<td>破折号 –</td>
-<td>Option+-</td>
-</tr>
-
-<tr>
-<td>约等于 ≈</td>
-<td>Option+X</td>
-</tr>
-
-<tr>
-<td>度 °</td>
-<td>Shift+Option+8</td>
-</tr>
-
-<tr>
-<td>除号 ÷</td>
-<td>Option+/</td>
-</tr>
-
-<tr>
-<td>循环 ∞</td>
-<td>Option+5</td>
-</tr>
-
-<tr>
-<td>小于等于≤</td>
-<td>Option+,</td>
-</tr>
-
-<tr>
-<td>大于等于≥</td>
-<td>Option+.</td>
-</tr>
-
-<tr>
-<td>不等于≠</td>
-<td>Option+=</td>
-</tr>
-
-<tr>
-<td>Pi π</td>
-<td>Option+P</td>
-</tr>
-
-<tr>
-<td>正负号±</td>
-<td>Shift+Option+=</td>
-</tr>
-
-<tr>
-<td>平方根√</td>
-<td>Option+V</td>
-</tr>
-
-<tr>
-<td>求和 ∑</td>
-<td>Option+W</td>
-</tr>
-
-<tr>
-<td>产品标识 ™</td>
-<td>Option+2</td>
-</tr>
-
-<tr>
-<td>®</td>
-<td>Option+r</td>
-</tr>
-</tbody>
-</table>
-
-<p>​</p>
+<p><img src = "/images/2019061601.png"></p>
 
 <p><center>·End·</center></p>
 
@@ -355,7 +205,7 @@ Command(⌘)+Option(⌥)+\ 打开文件选项（Alfred）
              
             <p class="copyright-item">
                     <span>Link:</span>
-                    <a href=https://zlog.design/2019/MacOS-001/>https://zlog.design/2019/MacOS-001/</span>
+                    <a href=https://zlog.design/2019/MacOS-003/>https://zlog.design/2019/MacOS-003/</span>
             </p>
             
              
@@ -383,9 +233,9 @@ Command(⌘)+Option(⌥)+\ 打开文件选项（Alfred）
     </div>
 
     <div class="post-nav">
-         
         
-        <a href="https://zlog.design/2019/MacOS-002/" class="next" rel="next" title="MacOS键盘快捷键官方文档">MacOS键盘快捷键官方文档&nbsp;<i class="iconfont icon-right"></i></a>
+        <a href="https://zlog.design/2019/MacOS-002/" class="prev" rel="prev" title="MacOS键盘快捷键官方文档"><i class="iconfont icon-left"></i>&nbsp;MacOS键盘快捷键官方文档</a>
+         
         
     </div>
 
