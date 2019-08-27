@@ -4,7 +4,7 @@
     <url>
       <loc>https://zlog.design/categories/</loc>
       
-      <lastmod>2019-06-25T14:42:36+08:00</lastmod>
+      <lastmod>2019-07-09T18:39:34+08:00</lastmod>
       
       
       
@@ -14,13 +14,23 @@
     </url>
   
     <url>
-      <loc>https://zlog.design/tags/Java/</loc>
+      <loc>https://zlog.design/tags/MacOS/</loc>
       
-      <lastmod>2019-06-25T14:42:36+08:00</lastmod>
+      <lastmod>2019-07-09T18:39:34+08:00</lastmod>
       
       
       
       <priority>0</priority>
+      
+      
+    </url>
+  
+    <url>
+      <loc>https://zlog.design/2019/MacOS-004/</loc>
+      
+      <lastmod>2019-07-09T18:39:34+08:00</lastmod>
+      
+      
       
       
     </url>
@@ -28,7 +38,7 @@
     <url>
       <loc>https://zlog.design/posts/</loc>
       
-      <lastmod>2019-06-25T14:42:36+08:00</lastmod>
+      <lastmod>2019-07-09T18:39:34+08:00</lastmod>
       
       
       
@@ -40,7 +50,7 @@
     <url>
       <loc>https://zlog.design/tags/</loc>
       
-      <lastmod>2019-06-25T14:42:36+08:00</lastmod>
+      <lastmod>2019-07-09T18:39:34+08:00</lastmod>
       
       
       
@@ -51,6 +61,30 @@
   
     <url>
       <loc>https://zlog.design/</loc>
+      
+      <lastmod>2019-07-09T18:39:34+08:00</lastmod>
+      
+      
+      
+      <priority>0</priority>
+      
+      
+    </url>
+  
+    <url>
+      <loc>https://zlog.design/categories/%E7%8E%AF%E5%A2%83%E6%95%B4%E6%B2%BB/</loc>
+      
+      <lastmod>2019-07-09T18:39:34+08:00</lastmod>
+      
+      
+      
+      <priority>0</priority>
+      
+      
+    </url>
+  
+    <url>
+      <loc>https://zlog.design/tags/Java/</loc>
       
       <lastmod>2019-06-25T14:42:36+08:00</lastmod>
       
@@ -75,18 +109,6 @@
       <loc>https://zlog.design/categories/%E7%BC%96%E7%A8%8B%E9%9A%8F%E6%83%B3/</loc>
       
       <lastmod>2019-06-25T14:42:36+08:00</lastmod>
-      
-      
-      
-      <priority>0</priority>
-      
-      
-    </url>
-  
-    <url>
-      <loc>https://zlog.design/tags/MacOS/</loc>
-      
-      <lastmod>2019-06-16T22:25:48+08:00</lastmod>
       
       
       
