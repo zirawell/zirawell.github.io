@@ -652,8 +652,8 @@ Command(⌘)+Option(⌥)+\ 打开文件选项（Alfred）
 &lt;link rel=&#34;icon&#34; type=&#34;image/png&#34; sizes=&#34;192x192&#34; href=&#34;https://zlog.design/images/favicon.png&#34;&gt;
 &lt;link rel=&#34;icon&#34; type=&#34;image/png&#34; sizes=&#34;16x16&#34; href=&#34;https://zlog.design/images/favicon.png&#34;&gt;
 &lt;link rel=&#34;manifest&#34; href=&#34;https://zlog.design/images/favicon.png&#34;&gt;
-&lt;link rel=&#34;icon&#34; type=&#34;image/x-icon&#34; href=&#39;https://zlog.design/favicon.ico&#39; /&gt;
-&lt;link rel=&#34;shortcut icon&#34; type=&#34;image/x-icon&#34; href=&#39;https://zlog.design/favicon.ico&#39; /&gt;&lt;/p&gt;
+&lt;link rel=&#34;icon&#34; type=&#34;image/x-icon&#34; href=&#34;https://zlog.design/favicon.ico?&#34; /&gt;
+&lt;link rel=&#34;shortcut icon&#34; type=&#34;image/x-icon&#34; href=&#34;https://zlog.design/favicon.ico?&#34; /&gt;&lt;/p&gt;
 </description>
     </item>
     
